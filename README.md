@@ -1,4 +1,10 @@
-TODO
+This repository was created as part of the KIT Modeling Week 2024, where we applied inverse uncertainty quantification to the simulation of a 1D shock tube.
+
+## What's in the notebooks?
+
+The notebooks containing `ex1` use the exact solver (Riemann.py from the AREPO public code release), while the notebooks containing `ex2` use the actual AREPO simulator. After downloading this repository and installing necessary Python packages, it should be possible to run the notebooks using the exact solver, while the simulator notebooks require an UM-Bride server, the code of which is not yet available in this repository, unfortunately.
+
+The notebook names also indicate the value of `sigma`, i.e. the standard derivation of the measurement errors. Taking a look at the notebooks, one can compare how the inverse problem behaves for variations of `sigma`.
 
 ## Build docker container
 
